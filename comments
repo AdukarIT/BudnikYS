@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <title>comments.html</title>
+ </head>
+<body>
+ <header>
+   <h1>Меню</h1>
+   <ul>
+   <li><a herf="#service">услуги</a></li>
+   <li><a herf="#devices">устройства</a></li>
+   <li><a herf="comments.html">отзывы</a></li>
+   <li><a herf="#connection">связаться с нами</a></li>
+   </ul>
+  </header> 
+   <h2>Отзывы</h2>
+ <ul>
+   <p>
+   	<li>Огромная благодарность за работу. Обращаемся не первый раз. Мастера восстановили убитый с двух сторон iPhone X, переклейка стекла на уровне! </p>
+   	<p>
+      <a herf="https://vk.com/ptuxerman">
+     	<img scr="ptuxerman.jpg" alt="Anton" width="200" height="200"></a>
+   </li></p> 
+   <p>
+   	<li>Отличная мастерская. Сделали все быстро и качественно. Всем советую.</p>
+   	<p>
+     <a herf="https://www.youtube.com/gohello">
+     	<img scr="ilya.jpg" alt="Ilya" width="200" height="200"></a>
+   </li></p>
+   <p>
+   	<li>Обратились с разбитым стеклом у айфон Х. Утром оставили, вечером был уже готов! Отличный сервис,рекомендую!</p>
+   	<p>
+   	 <a herf="https://vk.com/kskobelev">
+   	 	<img scr="kirill.jpg" alt="Kirill" width="200" height="200"></a>
+   </li></p>
+   <p>
+   	<li>Спасибо большое fixim.by за быструю и качественную работу. Ребята отзывчивые, профессионалы своего дела. Доброжелательны к клиенту, компетентный коллектив. Я очень рад и рекомендую. Останетесь довольны.</p>
+    <p>
+     <a herf="https://www.instagram.com/nick.yuryev/?hl=ru">
+     	<img scr="Nick.jpg" alt="Nick" width="200" height="200"></a>
+   </li></p>
+   <p>
+   	<li>Отличный сервис! Ребята знают своё дело. Можете не переживать за ваши гаджеты. Умеют переклеивать изогнутые экраны!</p>
+   	<p>
+     <a herf="https://www.youtube.com/user/ElinaFedorova">
+     	<img scr="Elina.jpg" alt="Elina" width="200" height="200"></a>
+   </li></p>
+ </ul>
+ <footer>
+   	<h2>Связаться с нами</h2>
+   	<p>Номер телефона: +375(17)377-27-15</p>
+   	<p>Адрес: г. Минск, ул. Обойная, 4, корп. 1, пом. 171</p>
+   	<p>Время работы: 
+ пн. - пт. с 9:00 до 20:00
+ суббота с 10:00 до 18:00
+ воскресенье - выходной</p>
+ </footer>
+</body>
+</html>
