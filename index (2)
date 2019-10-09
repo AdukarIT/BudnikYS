@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <title>comments.html</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+.checked {
+    color: orange;
+}
+</style>
+ </head>
+<body>
+ <header>
+   <h1>Orgtuch.by</h1>
+   <p>Продажа и обслуживание оргтехники в Минске</p>
+   <table width="100%" border="1" cellspacing="0" cellpadding="10">
+   <caption>Таблица с представленными товарами</caption>
+   <tr> 
+    <th>&nbsp;</th><th>Детектор валют</th>
+    <th>Калькулятор</th><th>Лазерный принтер</th>
+    <th>Матричный принтер</th><th>Сканер</th>
+    <th>Факс</th><th>Офисный телефон</th>
+    <th>Счетчик банкнот и монет</th><th>Уничтожитель документов</th>
+    <th>Телефон IP</th>
+   </tr>
+   <tr> 
+    <td>Фото и имя модели товара</td>
+     	<td>
+     	<a herf="file:///C:/Users/User/html/product.html">Детектор валют</a>
+     	<img scr="detector.png" alt="Детектор валют Dors 230"></td>
+        <td><a herf="#">
+     	<img scr="calculator.jpg" alt="Калькулятор Casio FX-82ES PLUS"></a></td>
+        <td><a herf="#">
+     	<img scr="laser.jpg" alt="Лазерный принтер Canon i-SENSYS LBP7018C"></a></td>
+     	<td><a herf="#">
+     	<img scr="matrix.jpg" alt="Матричный принтер Epson PLQ-20"></a></td>
+     	<td><a herf="#">
+     	<img scr="scanner.jpg" alt="Сканер Canon CanoScan LiDE 220"></a></td>
+     	<td><a herf="#">
+     	<img scr="fax.jpg" alt="Факсимильный аппарат Panasonic KX-FC278RU"></a></td>
+     	<td><a herf="#">
+     	<img scr="phone.jpg" alt="Цифровой системный телефон Panasonic KX-T7433RU"></a></td>
+     	<td><a herf="#">
+     	<img scr="counter.jpg" alt="Счетчик банкнот Cassida Tiger UV"></a></td>
+     	<td><a herf="#">
+     	<img scr="destroy.jpg" alt="Уничтожитель документов Fellowes PS-65C"></a></td>
+     	<td><a herf="#">
+     	<img scr="IP.jpg" alt="IP-телефон Yealink SIP-T46G"></a></td>
+   </tr>
+        <tr> 
+         <td>Краткое описание</td>
+         <td>Автоматический; скорость 60 банкнот/мин; проверка в ИК-спектре, проверка в УФ-спектре; базовые валюты: российские рубли, USD, EUR; определение номинала банкнот; дисплей; питание: аккумулятор.</td>
+         <td>Инженерный калькулятор с ЖК-дисплеем высокого разрешения (63 x192 пикселей).</td>
+         <td>A4; цветная печать; 600x600 dpi; скорость печати до 16 стр/мин; интерфейсы: USB.</td>
+         <td>Матричный принтер для печати на оригиналах документов со скоростью печати до 576 символов в секунду.</td>
+         <td>Планшетный; контактный (CIS) датчик; A4; Оптическое разрешение - 4800x4800 dpi; 48 бит; подключение: USB.</td>
+         <td>Факс-аппарат с беспроводной DECT-трубкой, работающий с обычной бумагой формата А4 с печатью способом термопереноса.</td>
+         <td>Аналоговый системный телефон (4-проводный).</td>
+         <td>Счетчик банкнот; 1200 шт./мин.</td>
+         <td>Уничтожение: скрепки; уничтожение: скобы, пластиковые карты.</td>
+         <td>Поддержка 6 SIP-линий с независимой конфигурацией.</td>
+   </tr>
+        <tr> 
+         <td>Цена</td>
+         <td>от 520,00 до 900,00 р.</td>
+         <td>23,00 р.</td>
+         <td>540,00 р.</td>
+         <td>от 1 753,00 до 2 392,00 р.</td>
+         <td>219,00 р.</td>
+         <td>420,00 р.</td>
+         <td>250,00 р.</td>
+         <td>370,00 р.</td>
+         <td>95,00 р.</td>
+         <td>19,00 р.</td>
+   </tr>
+         <tr>
+         <td>Рейтинг</td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+         <td>
+         	<span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+         </td>
+     </tr>
+ </table>
+ <footer>
+   	<h2>Связаться с нами</h2>
+   	<p>Номер телефона: 7712</p>
+   	<p>Адрес самовывоза: ул. Якуба Коласа 53/3, пом. 1Н</p>
+   	<p>Время работы: 9:00 - 22:00 (без выходных)</p>
+ </footer>
+</body>
+</html>
