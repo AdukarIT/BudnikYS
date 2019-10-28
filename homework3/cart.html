@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <title>cart.html</title>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+<body>
+	<div>
+		<span><a href="#"><img class="cart" src="img/cart.svg" alt="cart"></a></span>
+		<p class="shop">DOMOTEHNIKA</p>
+		<p class="logo"><img src="img/logo.svg" alt="logo" width="62" height="61"></p></div>
+	<div class="block"><img class="appliances" src="img/appliances.svg" alt="appliances" width="334" height="87"></div>
+	<div class="menu">
+		<span>Бытовая техника</span>
+		<ul class="dropdown">
+			<li><a href="#">Стиральные машины</a></li>
+			<li><a href="#">Пылесосы</a></li>
+			<li><a href="#">Швейные машины</a></li>
+			<li><a href="#">Утюги</a></li>
+			<li><a href="#">Электровеники</a></li>
+			<li><a href="#">Сушилки для обуви</a></li>
+		</ul>
+    </div>
+	<div class="block2"><img class="kitchen" src="img/kitchen.svg" alt="kitchen" width="334" height="87"></div>
+	<div class="menu2">
+		<span>Техника для кухни</span>
+		<ul class="dropdown2">
+			<li><a href="#">Холодильники</a></li>
+			<li><a href="#">Морозилки</a></li>
+			<li><a href="#">Кухонные плиты</a></li>
+			<li><a href="#">Настольные плиты</a></li>
+			<li><a href="#">Ростеры, мини печи</a></li>
+			<li><a href="#">Вытяжки</a></li>
+			<li><a href="#">Микроволновые печи</a></li>
+		</ul>
+    </div>
+	<div class="block3"><img class="computer" src="img/computer.svg" alt="kitchen" width="334" height="87"></div>
+	<div class="menu3">
+		<span>Компьютерная техника</span>
+		<ul class="dropdown3">
+			<li><a href="#">Ноутбуки</a></li>
+			<li><a href="#">Планшеты</a></li>
+			<li><a href="#">Компьютеры, моноблоки</a></li>
+			<li><a href="#">Игровые приставки</a></li>
+			<li><a href="#">Серверное оборудование</a></li>
+		</ul>
+	</div>
+	<main>
+	    <h1 class="name__form">Форма отправки заказа</h1>
+    	<ul class="form">
+    	  	<li>
+              <input class="data" type="text" name="name" placeholder="Имя" required />
+        </li>
+            <li>
+              <input class="data" type="text" name="surname" placeholder="Фамилия" required />
+        </li>
+            <li>
+              <input class="data" type="text" name="number" placeholder="Номер телефона" required />
+        </li>
+            <li>
+              <input class="data" type="text" name="email" placeholder="E-mail" required />
+        </li>
+    	</ul>
+
+     <h3 class="choice">Выберите способ доставки:</h3>
+     <div class="delivery">
+		<b>Самовывоз со склада по адресу:</b><br>
+			  <input class="adress1" type="radio" name="delivery" checked> ул. Уручьская 21
+			  <input class="adress2" type="radio" name="delivery"> ул. Авиационная 1
+		<div class="map1">
+			  <iframe src="https://goo.gl/maps/YXC7cAenz4F5MPmn7" width="560" height="400"></iframe>
+			</div>
+		<div class="map2">
+			  <iframe src="https://goo.gl/maps/TREmjniL5xngfH1k8" width="560" height="400"></iframe>
+			</div>
+		<input type="checkbox" name="curier-delivery">Курьером по Минску
+
+		<div class="check-open">
+			  <input type="text" name="adress" placeholder="Адрес доставки">
+		</div>
+	</div>
+	<label class="comment">Комментарий к заказу
+			  <textarea cols="78" rows="10"></textarea>
+	</label>
+	<div class="confim">
+			  <input type="checkbox">"Я прочитал(-a) и согласен(-нa) с <a href="#">условиями доставки"</a>
+			  <input class="button" type="submit" value="Подтвердить заказ"></div>
+    </main>
+    <footer class="block4">
+    	<ul class="information">
+			<li>Пн-Пт: 10:00-19:00, Сб:11:00-17:00</li>
+			<li>г.Минск, проспект Победителей, 106</li>
+			<li>+375 (29) 698-10-18</li>
+			<li><a href="skype:www.domotehnika.by?add">www.domotehnika.by</a></li>
+		</ul>
+    </footer>
+</body>
+</html>
