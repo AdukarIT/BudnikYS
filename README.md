@@ -12,3 +12,6 @@
 
  ## Основы CSS
  [Практика](https://jsfiddle.net/Yana8/n6ymsbq3/113/)
+ 
+ ## Float. Псевдоклассы и составные селекторы
+ [Homework 3](https://github.com/AdukarIT/BudnikYS/tree/master/homework3)
