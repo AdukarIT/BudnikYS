@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background-color: #191919;
+}
+div {padding: 30px 0}
+form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+.field input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid red;
+  border-radius: 5px;
+  outline: none;
+  background: #191919;
+  color: white;
+  font-size: 15px;
+}
+.field button {
+  position: absolute; 
+  top: 0;
+  right: -13px;
+  width: 52px;
+  height: 48px;
+  border: none;
+  background: red;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.field button:before {
+  content: "\1F50D";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #191919;
+}
+
+
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;  
+  transition: .3s ease-in-out;
+}
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu > li {
+  width: 30%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  padding: 15px 30px;
+}
+.menu li a:hover {color: red;}
+
+/* footer */
+
+.block { 
+  color: #707070;
+  padding: 150px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+li {
+  list-style: none;
+}

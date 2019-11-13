@@ -1,0 +1,26 @@
+body {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.like { 
+	display: none;
+}
+.text::before {
+	display: inline-block;
+	vertical-align: middle;
+    content:"";
+	background-image: url(https://image.flaticon.com/icons/png/512/56/56986.png);
+	width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: contain;
+}
+.like:checked ~ .text::before {
+    color: red;
+    background-image: url(https://www.freeiconspng.com/uploads/heart-icon-valentine-2.png);
+    width: 100px;
+    height: 100px;
+}

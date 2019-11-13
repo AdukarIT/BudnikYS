@@ -1,0 +1,25 @@
+body {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+input {
+	display: none;
+}
+label::before {
+	display: inline-block;
+	vertical-align: middle;
+	content:"";
+	background-image: url(https://image.flaticon.com/icons/png/512/24/24396.png);
+	width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-size: contain;
+} 
+input:checked ~ label::before {
+	background-image: url(https://image.flaticon.com/icons/png/512/67/67349.png);
+    width: 80px;
+    height: 80px;
+}
