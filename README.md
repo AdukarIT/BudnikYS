@@ -15,3 +15,7 @@
  
  ## Float. Псевдоклассы и составные селекторы
  [Homework 3](https://github.com/AdukarIT/BudnikYS/tree/master/homework3)
+ 
+ ## Изображения. Шрифты и иконки
+ [Homework 4](https://github.com/AdukarIT/BudnikYS/tree/master/homework4)
+
