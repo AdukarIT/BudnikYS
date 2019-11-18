@@ -1,0 +1,88 @@
+body {
+	font-family: Helvetica;
+	background:linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+	url(img/background.jpg) no-repeat;
+	background-size: 100%;
+	color: white;
+}
+.heading {
+	font-family: Helvetica;
+	font-size: 35px;
+	margin: 20px;
+	margin-right: 13%;
+}
+.theme {
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 150%;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 40px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px 0 20px;
+    color: white;
+}
+nav a:hover {
+    border-bottom: 3px solid white;
+    transition: .2s;
+}
+.social {
+    margin-right: 3%;
+}
+.social a {
+    padding: 0 3px 0 3px;
+}
+.social span a {
+    padding-right: 10px;
+    vertical-align: super;
+    text-decoration: none;
+    color: white;
+}
+.advantages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#advantage span {
+	float: right;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	margin-left: 10px;
+}
+.advantages div {
+    margin: 0 3% 0 3%;
+}
+.preparation {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: lighter;
+}
+.button {
+  display: block;
+  background-color: #EF5553;
+  text-align: center;
+  width: 280px;
+  height: 20px;
+  margin: 18px auto 0 auto;
+  margin-bottom: 20px;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
