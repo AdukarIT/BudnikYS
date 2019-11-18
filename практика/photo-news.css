@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+.photo {
+	margin: 10px;
+}
+.info {
+	background-color: gray;
+	text-align: center;
+    padding: 20px;
+}
+.info ul li a:hover {color: red;}
+li {
+  list-style: none;
+}
+a {
+	color: #c2c2c2;
+	font-size: 25px;
+	text-decoration: none;
+}

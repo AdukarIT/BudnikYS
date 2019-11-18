@@ -1,0 +1,21 @@
+header {
+	   text-align: center;
+  }
+@media screen and (max-width: 300px) {
+   p img {
+		width: 33%;
+		margin: 0%;
+	}
+}
+@media screen and (max-width: 600px) {
+    p img {
+		width: 60%;
+		margin: 0%;
+	}
+}
+@media screen and (max-width: 1000px) {
+    p img {
+		width: 100%;
+		margin: 0%;
+	}
+}

@@ -1,0 +1,84 @@
+body {
+  font-size: 15px; 
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+form {
+  margin: 0 auto;
+  position: relative;
+  width: 500px;
+}
+.field input {
+  width: 100%;
+  height: 38px;
+  padding-left: 10px;
+  border: 2px solid #c2c2c2;
+  outline: none;
+  color: gray;
+  border-radius: 2px;
+  font-size: 15px;
+}
+.field button {
+  position: absolute; 
+  top: 0;
+  right: -13px;
+  width: 80px;
+  height: 44px;
+  border: none;
+  background: #c2c2c2;
+  border-radius: 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;  
+}
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu:after {
+  display: table;
+  clear: both;
+}
+.menu > li {
+  width: 20%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu > li > a {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: gray;
+  padding: 20px 30px;
+}
+.menu li a:hover {color: red;}
+
+.text {
+	font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.block {
+	background-color: gray;
+	text-align: center;
+    padding: 20px;
+}
+.block ul li a:hover {color: red;}
+li {
+  list-style: none;
+}
+a {
+	color: #c2c2c2;
+	font-size: 25px;
+	text-decoration: none;
+}
