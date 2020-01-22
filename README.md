@@ -30,6 +30,5 @@
  [Homework 6](https://github.com/AdukarIT/BudnikYS/tree/master/homework6)
  
  ## Итоговый проект по верстке 
- [Bonobos](https://YanaBudnik.github.io/blob/master/Bonobos/public/bonobos.html)
- [Bonobos-shop](https://YanaBudnik.github.io/blob/master/Bonobos/public/bonobos-shop.html)
- [Bonobos-about-us](https://YanaBudnik.github.io/blob/master/Bonobos/public/bonobos-about-us.html)
+ [Bonobos](https://github.com/YanaBudnik/YanaBudnik.github.io)
+
