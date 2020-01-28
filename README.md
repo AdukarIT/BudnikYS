@@ -34,4 +34,7 @@
  
  ## Итоговый проект по верстке 
  [Bonobos](https://github.com/YanaBudnik/YanaBudnik.github.io)
+ 
+ ## Операторы. Циклы
+ [JS.Homework 1](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework1)
 
