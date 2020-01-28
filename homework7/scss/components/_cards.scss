@@ -1,0 +1,59 @@
+.side-left {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	animation-duration: 1s;
+}
+.side-right {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	animation-duration: 1s;
+}
+.card_left {
+	background: url('../icons/Rectangle1.png') no-repeat;
+	width: 280px;
+	height: 250px;
+	display: flex;
+	font-size: 14px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	img {
+		position: absolute;
+        top: 30px;
+	}
+	img:hover {
+		width: 40px;
+		transition: .4s;
+	}
+	p {
+		margin: 0;
+        width: 180px;
+	}
+}
+.card_right {
+	background: url('../icons/Rectangle2.png') no-repeat;
+	width: 280px;
+	height: 250px;
+	display: flex;
+	font-size: 14px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	img {
+		position: absolute;
+        top: 30px;
+	}
+	img:hover {
+		width: 40px;
+		transition: .4s;
+	}
+	p {
+		margin: 0;
+        width: 180px;
+        text-align: center;
+	}
+}

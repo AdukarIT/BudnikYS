@@ -1,0 +1,82 @@
+.frame {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	margin: 2% 3%;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+	border-radius: 2em;
+	border: 1px solid $frame-color;
+	box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+}
+
+.center-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: $elements-color;
+	padding: 0 2em;
+}
+
+.logo {
+	width: 380px;
+	margin-top: 90px;
+	animation-duration: 4s;
+	animation-delay: 1s;
+}
+.title-top {
+	font-size: 89px;
+	font-family: 'BankGothicBold';
+	text-transform: uppercase;
+	cursor: default;
+	animation-duration: 8s;
+	animation-delay: 1s;
+}
+.description {
+	width: 350px;
+}
+.title-bottom {
+	font-size: 53px;
+	font-family: 'BankGothicBold';
+	text-transform: uppercase;
+	letter-spacing: 1.42em;
+	width: 7.3em;
+	cursor: default;
+	animation-duration: 8s;
+	animation-delay: 1s;
+}
+.social {
+	font-size: 5em;
+	letter-spacing: 40px;
+	transition: .6s;
+	.switch:hover {
+		width: 50px;
+		transition: .6s;
+	}
+}
+.button {
+	margin-top: 2em;
+	padding-top: 5px;
+	width: 336px;
+	height: 42px;
+	background: $elements-color;
+	border-radius: .3em;
+	border: 0;
+	color: $background-color;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	&:hover {
+		background: $icons-color;
+		transition: 0.8s;
+	}
+}
+.phone-screen {
+	display: none;
+	margin-top: 50px;
+}

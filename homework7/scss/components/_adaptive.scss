@@ -1,0 +1,194 @@
+@media (max-width: 1200px) {
+	.frame {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1.2em;
+        background: $frame-adaptive-color;
+        border-radius: 0;
+        flex-direction: column;
+    }
+    .logo {
+        margin: 0;
+    }
+    .button {
+        margin-top: 3em;
+        padding-top: 25px;
+        width: 13em;
+        height: 60px;
+    }
+    .phone-screen {
+    	display: block;
+    }
+    .card_left {
+    	display: none;
+    }
+    .card_right {
+    	display: none;
+    }
+    .line-block {
+        display: flex;
+        margin-bottom: 2em;
+    }
+    .side_left {
+        width: 38%;
+        height: 14.60em;
+        background: $side-color;
+    }
+    .side_right {
+        width: 45%;
+        height: 14.60em;
+        background: $side-color;
+        z-index: 1;
+    }
+    div.card_hidden_left:last-child {
+        margin-bottom: 0;
+    }
+    .card_hidden_left {
+        background: url('../icons/Rectangle3.png') no-repeat;
+        width: 280px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+		    margin: 0;
+		    margin-bottom: 30px;
+		    font-size: 14px;
+            width: 190px;
+	    }
+    }
+    div.card_hidden_right:last-child {
+    	margin-left: 40%;
+    }
+    .card_hidden_right {
+        background: url('../icons/Rectangle4.png') no-repeat;
+        width: 320px;
+        height: 250px;
+        margin-left: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        p {
+		    margin: 0;
+		    margin-bottom: 30px;
+		    font-size: 14px;
+            width: 190px;
+	    }
+    }
+    .phone-button {
+    	display: block;
+        text-align: center;
+        margin: 2em 35% 0 35%;
+        padding-top: 1.2em;
+        width: 13em;
+        height: 60px;
+        background: $elements-color;
+        border-radius: .3em;
+        border: 0;
+        color: $background-color; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-decoration: none;
+        cursor: pointer;
+        outline: none;
+    }
+}
+@media (max-width: 1000px) {
+    .logo {
+        width: 45em;
+        padding-top: 7em;
+    }
+    .title-top {
+        font-size: 10.5em;
+        padding-top: .1em;
+    }
+    .title-bottom {
+        font-size: 6.1em;
+        letter-spacing: 1.48em;
+        margin-right: .2em;
+    }
+    .description {
+        width: 90%; 
+    }
+    .button {
+        margin-top: 2em;
+        padding-top: 50px;
+        width: 11em;
+        height: 140px;
+        font-size: 3.5em;
+    }
+    .social img {
+        padding-top: 60px;
+        width: 80px;
+    }
+    .side_left {
+        width: 44%;
+    }
+    .card_hidden_left img {
+        width: 130px;
+        position: absolute;
+        left: 30px;
+    }
+    .card_hidden_left p {
+        width: 400px;
+        font-size: 1.8em;
+        margin-right: 9em;
+    }
+    .card_hidden_left h3 {
+        font-size: 3em;
+        margin: .2em 5.2em .2em 0;
+    }
+    .card_hidden_right {
+        width: 270px;
+        margin-left: 17em;
+    }
+    .card_hidden_right img {
+        width: 130px;
+        position: absolute;
+        right: 30px;
+    }
+    .card_hidden_right p {
+        width: 500px;
+        font-size: 1.8em;
+        margin-left: 10em;
+    }
+    .card_hidden_right h3 {
+        font-size: 3em;
+        margin: .2em -7em .1em 0;;
+    }
+}
+@media (max-width: 800px) {
+    .side_left {
+        width: 25%;
+    }
+    .card_hidden_left img {
+        width: 60px;
+    }
+    .card_hidden_left p {
+        width: 280px;
+        font-size: 1em;
+    }
+    .card_hidden_left h3 {
+        font-size: 2em;
+        margin: .2em 4em .3em 0;;
+    }
+    .card_hidden_right img {
+        width: 80px;
+    }
+    .card_hidden_right p {
+        width: 300px;
+        font-size: 1em;
+        margin-left: 5em;
+    }
+    .card_hidden_right h3 {
+        font-size: 2em;
+        margin: .2em -3em .3em 0;;
+    }
+
+}
+
