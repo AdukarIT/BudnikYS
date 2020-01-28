@@ -29,6 +29,9 @@
  ## Эффекты. Анимация
  [Homework 6](https://github.com/AdukarIT/BudnikYS/tree/master/homework6)
  
+ ## node.js + npm + sass
+ [Homework 7](https://github.com/AdukarIT/BudnikYS/tree/master/homework7)
+ 
  ## Итоговый проект по верстке 
  [Bonobos](https://github.com/YanaBudnik/YanaBudnik.github.io)
 
