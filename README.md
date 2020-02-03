@@ -37,4 +37,7 @@
  
  ## Операторы. Циклы
  [JS.Homework 1](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework1)
+ 
+ ## Функции
+ [JS.Homework 2](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework2)
 
