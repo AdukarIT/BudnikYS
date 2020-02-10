@@ -40,4 +40,7 @@
  
  ## Функции
  [JS.Homework 2](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework2)
+ 
+ ## Поиск ошибок и отладка кода. Практика
+ [JS.Practice](https://github.com/AdukarIT/BudnikYS/tree/master/js.practice)
 
