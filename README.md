@@ -43,4 +43,8 @@
  
  ## Поиск ошибок и отладка кода. Практика
  [JS.Practice](https://github.com/AdukarIT/BudnikYS/tree/master/js.practice)
+ 
+ ## Массивы
+ [JS.Homework 3](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework3)
+ 
 
