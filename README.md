@@ -47,4 +47,7 @@
  ## Массивы
  [JS.Homework 3](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework3)
  
+ ## Объекты
+ [JS.Homework 4](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework4)
+ 
 
