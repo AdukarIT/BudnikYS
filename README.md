@@ -56,7 +56,7 @@
  ## Продвинутый JS
  [JS.Homework 6](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework6%2Bpractice)
  
- ## Dom. Работа со страницей
+ ## DOM. Работа со страницей
  [JS.Homework 7](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework7)
  
  
