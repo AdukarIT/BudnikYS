@@ -50,4 +50,7 @@
  ## Объекты
  [JS.Homework 4](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework4)
  
+ ## Встроенные возможности JS
+ [JS.Homework 5](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework5)
+ 
 
