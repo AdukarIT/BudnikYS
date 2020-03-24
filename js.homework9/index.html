@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Формы</title>
+</head>
+<body>
+	<form onsubmit="return false">
+		<p>Name: <input type="text" id="name"><br></p>
+		<p>Number of donuts: <input type="text" id="donuts"><br></p>
+		<p>Minutes: <input type="text" id="minutes"><br></p>
+		<p>Subtotal: <input type="text" id="poditog"><br></p>
+		<p>Tax: <input type="text" id="tax"><br></p>
+		<p>Total: <input type="text" id="itog"><br></p>
+		<input type="submit" value="Order" onclick="placeOrder()">
+    </form>
+
+    <p>
+    <form method="post" id="formSend">
+    	<input type="text"><br>
+    	<input type="submit" name="" id="clearText" value="Send"/>
+    	<input type="reset" name="" id="reset" value="Drop" onclick="reset()" />
+    </form>
+    </p>
+
+    <p>
+    <form action="#" id="formCheck" method="post" onsubmit="return sendform()">
+    	<input type="text" name="Текст"><br><br>
+    	<input type="email" name="email" id="email" placeholder="email" /><br><br>
+    	<input type="password" name="password" id="password" value="password" /><br><br>
+    	<button type="submit" name="" id="checkInpyt">Check</button>
+    </form>
+    </p>
+
+    <p>
+    	<form id="task3" name="Registration">
+    	<br>Name: 
+    	<input type="text" id="nameRegistration">
+		<br>Email: 
+		<input type="email" id="email">
+		<br>How old are you? 
+		<input type="text" id="old">
+		<br>Enter password:
+		<input type="password" id="password">
+		<br>
+		<input type="submit" value="Send" onclick="placeOrder()">
+		</form>
+	</p>	
+
+    <p>
+    <p id="textFunction"></p>
+    <button id="replaceButton">Replace</button>
+
+    <div id = "discover">
+    	<p id= "textDiscover"></p>
+    	<button id="buttonDiscover">Discover</button>
+    </div>
+    </p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
