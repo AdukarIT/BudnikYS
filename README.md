@@ -53,4 +53,11 @@
  ## Встроенные возможности JS
  [JS.Homework 5](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework5)
  
+ ## Продвинутый JS
+ [JS.Homework 6](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework6%2Bpractice)
+ 
+ ## DOM. Работа со страницей
+ [JS.Homework 7](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework7)
+ 
+ 
 
