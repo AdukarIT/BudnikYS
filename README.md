@@ -59,5 +59,11 @@
  ## DOM. Работа со страницей
  [JS.Homework 7](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework7)
  
+ ## События. Координаты на странице
+ [JS.Homework 8](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework8)
+ 
+ ## Формы
+ [JS.Homework 9](https://github.com/AdukarIT/BudnikYS/tree/master/js.homework9)
+ 
  
 
